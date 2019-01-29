@@ -1,0 +1,3 @@
+squeezable-cacti.config.title=Squeezable Cacti
+squeezable-cacti.config.isEnabled=Enabled
+squeezable-cacti.config.fluidPerCactiMilliBuckets=Fluid Per Cactus in MilliBuckets (mB)
