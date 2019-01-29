@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "squeezable-cacti:minecraft_bucket_0-cacti_4"
+    ]
+  },
+  "criteria": {
+    "has_cacti": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:cactus"
+          }
+        ]
+      }
+    },
+    "has_bucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:bucket"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "squeezable-cacti:minecraft_bucket_0-cacti_4"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_cacti",
+      "has_bucket",
+      "has_the_recipe"
+    ]
+  ]
+}
